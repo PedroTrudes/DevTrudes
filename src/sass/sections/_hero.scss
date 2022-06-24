@@ -1,0 +1,232 @@
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+
+.highlighter{
+    transform: rotate(270deg);
+    color: #fff;
+    position: absolute;
+    left: 3%;
+    span{
+        color: #fff!important;
+    }
+}
+.curriculum{
+    position: absolute;
+    right: 0%;
+    transform: rotate(270deg);
+}
+
+//cartão central de apresentação
+.card__presentation{
+    display: flex;
+    padding: 25px;
+    color: #fff;
+    width: 60%;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+    // background-color: #989898;
+    backdrop-filter: blur(35px);
+    // -webkit-backdrop-filter: blur(5px);
+    // background-color: transparent;
+    
+
+}
+.card__presentation:before {
+    content: "";
+    position: absolute;
+    background: transparent;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 15000px #5B5B5B;
+    filter: blur(1px);
+    border-radius: 25px;
+    box-shadow: 0px 0px 0px 1px #fff;
+    //margin: -20px;
+  }
+
+.card__presentation--text{
+    padding-left: 15px;
+    span{
+        font-size: 1.4em;
+    }
+    h1{
+        margin: 15px 0px;
+        font-size: 2em;
+    }
+
+}
+
+
+.card__presentation--card{
+    background-color: #080f1f00;
+   
+    height: 80%;
+    border-radius: 150px 150px 8px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.presentation--img{
+    background-color: #D6B538;
+    padding: 15px;
+    border-radius: 150px;
+}
+.presentation--text{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.presentation--social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.card__presentation--banner{
+    position: absolute;
+    bottom: 5%;
+    width: 99%;
+    padding: 5px 0px;
+    background-color: #5b5b5b0e;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+
+
+.animation__frontend{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 75vh;
+
+}
+
+.front--pai01{
+    position: absolute;
+    bottom: 0%;
+    left: 8%;
+    height: 100%;
+}
+.front--pai02{
+    position: absolute;
+    bottom: 0%;
+    left: 11%;
+    height: 100%;
+}
+
+.front--pai03{
+    position: absolute;
+    bottom: 0%;
+    left: 14%;
+    height: 100%;
+}
+.front--pai04{
+    position: absolute;
+    bottom: 0%;
+    left: 17%;
+    height: 100%;
+}
+.front--pai05{
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    height: 100%;
+}
+.front--pai06{
+    position: absolute;
+    bottom: 0%;
+    left: 23%;
+    height: 100%;
+}
+.front--pai07{
+    position: absolute;
+    bottom: 0%;
+    left: 26%;
+    height: 100%;
+}
+.front--pai08{
+    position: absolute;
+    bottom: 0%;
+    left: 29%;
+    height: 100%;
+}
+.front--pai09{
+    position: absolute;
+    bottom: 0%;
+    left: 32%;
+    height: 100%;
+}
+.front--pai10{
+    position: absolute;
+    bottom: 0%;
+    left: 35%;
+    height: 100%;
+}
+.front--pai11{
+    position: absolute;
+    bottom: 0%;
+    left: 38%;
+    height: 100%;
+}
+.front--pai11{
+    position: absolute;
+    bottom: 0%;
+    left: 42%;
+    height: 100%;
+}
+.front--pai12{
+    position: absolute;
+    bottom: 0%;
+    left: 44%;
+    height: 100%;
+}
+.front--pai13{
+    position: absolute;
+    bottom: 0%;
+    left: 46%;
+    height: 100%;
+}
+.front--pai14{
+    position: absolute;
+    bottom: 0%;
+    left: 48%;
+    height: 100%;
+}
+.front--pai15{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    height: 100%;
+}
+.front{
+   animation: moveFront 2s ease-in-out infinite alternate; 
+}
+
+@keyframes moveFront {
+    from {
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(180%);
+    }  
+}
