@@ -32,12 +32,8 @@
     height: 50vh;
     align-items: center;
     justify-content: space-evenly;
-    
 
-    // background-color: #989898;
-    backdrop-filter: blur(35px);
-    // -webkit-backdrop-filter: blur(5px);
-    // background-color: transparent;
+    backdrop-filter: blur(5px);
     
 
 }
@@ -51,9 +47,9 @@
     right: 0;
     bottom: 0;
     box-shadow: inset 0 0 15000px #5B5B5B;
-    filter: blur(1px);
+    filter: blur(3px);
     border-radius: 25px;
-    box-shadow: 0px 0px 0px 1px #fff;
+    box-shadow: 0px 0px 0px 2px #fff;
     //margin: -20px;
   }
 
@@ -120,6 +116,10 @@
     height: 75vh;
 
 }
+
+
+
+// animações do Hero
 
 .front--pai01{
     position: absolute;
@@ -218,15 +218,112 @@
     left: 50%;
     height: 100%;
 }
-.front{
-   animation: moveFront 2s ease-in-out infinite alternate; 
+.front--pai16{
+    position: absolute;
+    bottom: 0%;
+    left: 53%;
+    height: 100%;
+}
+.front--pai17{
+    position: absolute;
+    bottom: 0%;
+    left: 56%;
+    height: 100%;
 }
 
-@keyframes moveFront {
+.front--pai18{
+    position: absolute;
+    bottom: 0%;
+    left: 59%;
+    height: 100%;
+}
+.front--pai19{
+    position: absolute;
+    bottom: 0%;
+    left: 62%;
+    height: 100%;
+}
+.front--pai20{
+    position: absolute;
+    bottom: 0%;
+    left: 65%;
+    height: 100%;
+}
+.front--pai21{
+    position: absolute;
+    bottom: 0%;
+    left: 68%;
+    height: 100%;
+}
+.front--pai22{
+    position: absolute;
+    bottom: 0%;
+    left: 71%;
+    height: 100%;
+}
+.front--pai23{
+    position: absolute;
+    bottom: 0%;
+    left: 74%;
+    height: 100%;
+}
+.front--pai24{
+    position: absolute;
+    bottom: 0%;
+    left: 77%;
+    height: 100%;
+}
+.front--pai25{
+    position: absolute;
+    bottom: 0%;
+    left: 80%;
+    height: 100%;
+}
+.front--pai26{
+    position: absolute;
+    bottom: 0%;
+    left: 83%;
+    height: 100%;
+}
+.front--pai27{
+    position: absolute;
+    bottom: 0%;
+    left: 86%;
+    height: 100%;
+}
+.front--pai28{
+    position: absolute;
+    bottom: 0%;
+    left: 89%;
+    height: 100%;
+}
+.front--pai29{
+    position: absolute;
+    bottom: 0%;
+    left: 92%;
+    height: 100%;
+}
+
+.frontUp{
+   animation: moveFrontUp 3s ease-in infinite alternate; 
+}
+
+.frontDown{
+    animation: moveFrontDown 3s ease-in infinite alternate;
+}
+
+@keyframes moveFrontUp {
     from {
-        transform: translateY(-100%);
+        transform: translateY(-200%);
     }
     to{
-        transform: translateY(180%);
+        transform: translateY(200%);
     }  
+}
+@keyframes moveFrontDown {
+    from {
+        transform: translateY(200%);
+    }to{
+        transform: translateY(-200%);
+    }
 }

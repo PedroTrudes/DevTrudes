@@ -96,8 +96,8 @@ table {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-backdrop-filter: blur(35px);
-          backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 
 .card__presentation:before {
@@ -111,11 +111,11 @@ table {
   bottom: 0;
   -webkit-box-shadow: inset 0 0 15000px #5B5B5B;
           box-shadow: inset 0 0 15000px #5B5B5B;
-  -webkit-filter: blur(1px);
-          filter: blur(1px);
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
   border-radius: 25px;
-  -webkit-box-shadow: 0px 0px 0px 1px #fff;
-          box-shadow: 0px 0px 0px 1px #fff;
+  -webkit-box-shadow: 0px 0px 0px 2px #fff;
+          box-shadow: 0px 0px 0px 2px #fff;
 }
 
 .card__presentation--text {
@@ -304,30 +304,155 @@ table {
   height: 100%;
 }
 
-.front {
-  -webkit-animation: moveFront 2s ease-in-out infinite alternate;
-          animation: moveFront 2s ease-in-out infinite alternate;
+.front--pai16 {
+  position: absolute;
+  bottom: 0%;
+  left: 53%;
+  height: 100%;
 }
 
-@-webkit-keyframes moveFront {
+.front--pai17 {
+  position: absolute;
+  bottom: 0%;
+  left: 56%;
+  height: 100%;
+}
+
+.front--pai18 {
+  position: absolute;
+  bottom: 0%;
+  left: 59%;
+  height: 100%;
+}
+
+.front--pai19 {
+  position: absolute;
+  bottom: 0%;
+  left: 62%;
+  height: 100%;
+}
+
+.front--pai20 {
+  position: absolute;
+  bottom: 0%;
+  left: 65%;
+  height: 100%;
+}
+
+.front--pai21 {
+  position: absolute;
+  bottom: 0%;
+  left: 68%;
+  height: 100%;
+}
+
+.front--pai22 {
+  position: absolute;
+  bottom: 0%;
+  left: 71%;
+  height: 100%;
+}
+
+.front--pai23 {
+  position: absolute;
+  bottom: 0%;
+  left: 74%;
+  height: 100%;
+}
+
+.front--pai24 {
+  position: absolute;
+  bottom: 0%;
+  left: 77%;
+  height: 100%;
+}
+
+.front--pai25 {
+  position: absolute;
+  bottom: 0%;
+  left: 80%;
+  height: 100%;
+}
+
+.front--pai26 {
+  position: absolute;
+  bottom: 0%;
+  left: 83%;
+  height: 100%;
+}
+
+.front--pai27 {
+  position: absolute;
+  bottom: 0%;
+  left: 86%;
+  height: 100%;
+}
+
+.front--pai28 {
+  position: absolute;
+  bottom: 0%;
+  left: 89%;
+  height: 100%;
+}
+
+.front--pai29 {
+  position: absolute;
+  bottom: 0%;
+  left: 92%;
+  height: 100%;
+}
+
+.frontUp {
+  -webkit-animation: moveFrontUp 3s ease-in infinite alternate;
+          animation: moveFrontUp 3s ease-in infinite alternate;
+}
+
+.frontDown {
+  -webkit-animation: moveFrontDown 3s ease-in infinite alternate;
+          animation: moveFrontDown 3s ease-in infinite alternate;
+}
+
+@-webkit-keyframes moveFrontUp {
   from {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
   }
   to {
-    -webkit-transform: translateY(180%);
-            transform: translateY(180%);
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%);
   }
 }
 
-@keyframes moveFront {
+@keyframes moveFrontUp {
   from {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
   }
   to {
-    -webkit-transform: translateY(180%);
-            transform: translateY(180%);
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%);
+  }
+}
+
+@-webkit-keyframes moveFrontDown {
+  from {
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%);
+  }
+  to {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+  }
+}
+
+@keyframes moveFrontDown {
+  from {
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%);
+  }
+  to {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
   }
 }
 /*# sourceMappingURL=main.css.map */
