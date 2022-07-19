@@ -666,6 +666,8 @@ table {
   -webkit-animation: moveBallYellow 10s ease-in-out infinite;
           animation: moveBallYellow 10s ease-in-out infinite;
   z-index: -105;
+  -webkit-box-shadow: 1px 1px 25px #d1ba68;
+          box-shadow: 1px 1px 25px #d1ba68;
 }
 
 .container__card--infos .ball__animation--blue {
@@ -679,6 +681,8 @@ table {
   -webkit-animation: moveBallBlue 10s ease-in-out infinite;
           animation: moveBallBlue 10s ease-in-out infinite;
   z-index: -105;
+  -webkit-box-shadow: 1px 1px 25px #69dbf1;
+          box-shadow: 1px 1px 25px #69dbf1;
 }
 
 .card__infos {
@@ -698,8 +702,12 @@ table {
   width: 100%;
   height: 270px;
   text-align: center;
-  background-color: #d9d9d942;
+  background-color: #ffffff42;
   border-radius: 8px;
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  -webkit-box-shadow: 0px 0px 25px #d1cfcf6c;
+          box-shadow: 0px 0px 25px #d1cfcf6c;
 }
 
 .card__infos .title__service {
@@ -765,8 +773,8 @@ table {
     left: -8%;
   }
   25% {
-    top: 50%;
-    left: 50%;
+    top: -8%;
+    left: 100%;
   }
   50% {
     top: 95%;
@@ -788,8 +796,8 @@ table {
     left: -8%;
   }
   25% {
-    top: 50%;
-    left: 50%;
+    top: -8%;
+    left: 100%;
   }
   50% {
     top: 95%;
@@ -811,8 +819,8 @@ table {
     right: -10%;
   }
   25% {
-    bottom: 50%;
-    right: 50%;
+    bottom: -10%;
+    right: 100%;
   }
   50% {
     bottom: 95%;
@@ -834,8 +842,8 @@ table {
     right: -10%;
   }
   25% {
-    bottom: 50%;
-    right: 50%;
+    bottom: -10%;
+    right: 100%;
   }
   50% {
     bottom: 95%;
