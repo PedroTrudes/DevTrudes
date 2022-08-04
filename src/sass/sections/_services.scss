@@ -169,6 +169,15 @@
     border-radius: 8px;
 }
 
+.card-1 , .card-2, .card-3{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.active{
+    display: block;
+}
 
 @keyframes moveBallBlue{
     0%{

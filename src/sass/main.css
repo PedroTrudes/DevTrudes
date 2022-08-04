@@ -767,6 +767,20 @@ table {
   border-radius: 8px;
 }
 
+.card-1, .card-2, .card-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.active {
+  display: block;
+}
+
 @-webkit-keyframes moveBallBlue {
   0% {
     top: -8%;
