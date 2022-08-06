@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/sass/main.css" />
 
-
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   
     
@@ -466,30 +469,15 @@
       </div>
     </section>
 
+    <!-- Usado no dasktop -->
     <section class="services">
       <div class="highlighter">
         <span>Service</span>
       </div>
-
-      <div class="container__slider">
-        <div class="container__slider--one">
-          <!-- botoes de next e previu -->
-          <div class="container__next">
-            <a href="">
-              <img src="src/img/icons/right-arrow.png" alt="Seta de proximo" />
-            </a>
-          </div>
-
-          <div class="container__previu">
-            <a href="">
-              <img src="src/img/icons/right-arrow.png" alt="Seta de voltar" />
-            </a>
-          </div>
-
-          <!-- Container De cardes de serviços -->
-          <div class="container__service--one">
-            <!-- container de informações do card -->
-
+      
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
             <div class="card-1">
               <div class="container__card--infos">
                 <!-- Bolas animadas nos cards -->
@@ -514,55 +502,244 @@
                 />
               </div>
             </div>
-          
-
-          </div>
-        </div>
-
-        <div class="container__slider--two">
-          <!-- botoes de next e previu -->
-          <div class="container__next" id="next">
-            <a href="">
-              <img src="src/img/icons/right-arrow.png" alt="Seta de proximo" />
-            </a>
           </div>
 
-          <div class="container__previu" id="previu">
-            <a href="">
-              <img src="src/img/icons/right-arrow.png" alt="Seta de voltar" />
-            </a>
-          </div>
-
-          <!-- Container De cardes de serviços -->
-          <div class="container__service--two">
-            <!-- container de informações do card -->
-            <div class="container__card--infos ml">
-              <!-- Bolas animadas nos cards -->
-              <div class="ball__animation--yellow"></div>
-              <div class="ball__animation--blue"></div>
-              <!-- card onde vai ficar o efeito glassmorphismo -->
-              <div class="card__infos">
-                <h3 class="title__service">Nome do projeto</h3>
-                <p class="text__service">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                  aut explicabo expedita! Commodi unde aliquid animi, odio
-                </p>
-                <a class="btn__projects" href="#">Ver Projeto</a>
+          <div class="swiper-slide">
+            <div class="card-1">
+              <div class="container__card--infos">
+                <!-- Bolas animadas nos cards -->
+                <div class="ball__animation--yellow"></div>
+                <div class="ball__animation--blue"></div>
+                <!-- card onde vai ficar o efeito glassmorphismo -->
+                <div class="card__infos">
+                  <h3 class="title__service">Nome do projeto</h3>
+                  <p class="text__service">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Saepe aut explicabo expedita! Commodi unde aliquid animi,
+                    odio
+                  </p>
+                  <a class="btn__projects" href="#">Ver Projeto</a>
+                </div>
+              </div>
+              <!-- Container onde vai ficar as imagens dos projetos -->
+              <div class="container__card--img--one">
+                <img
+                  src="src/img/logos/logoTruechange.png"
+                  alt="Logo do projeto"
+                />
               </div>
             </div>
-            <!-- Container onde vai ficar as imagens dos projetos -->
-            <div class="container__card--img--two">
-              <img src="src/img/logos/logo@2x.gif" alt="Logo do projeto" />
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card-1">
+              <div class="container__card--infos">
+                <!-- Bolas animadas nos cards -->
+                <div class="ball__animation--yellow"></div>
+                <div class="ball__animation--blue"></div>
+                <!-- card onde vai ficar o efeito glassmorphismo -->
+                <div class="card__infos">
+                  <h3 class="title__service">Nome do projeto</h3>
+                  <p class="text__service">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Saepe aut explicabo expedita! Commodi unde aliquid animi,
+                    odio
+                  </p>
+                  <a class="btn__projects" href="#">Ver Projeto</a>
+                </div>
+              </div>
+              <!-- Container onde vai ficar as imagens dos projetos -->
+              <div class="container__card--img--one">
+                <img
+                  src="src/img/logos/logoTruechange.png"
+                  alt="Logo do projeto"
+                />
+              </div>
             </div>
           </div>
+
         </div>
+        <div class="swiper-button-next reset-color"></div>
+        <div class="swiper-button-prev reset-color"></div>
+        <div class="swiper-pagination reset-color"></div>
+      </div>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card-2">
+              <div class="container__card--infos">
+                <!-- Bolas animadas nos cards -->
+                <div class="ball__animation--yellow"></div>
+                <div class="ball__animation--blue"></div>
+                <!-- card onde vai ficar o efeito glassmorphismo -->
+                <div class="card__infos">
+                  <h3 class="title__service">Nome do projeto</h3>
+                  <p class="text__service">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                    aut explicabo expedita! Commodi unde aliquid animi, odio
+                  </p>
+                  <a class="btn__projects" href="#">Ver Projeto</a>
+                </div>
+              </div>
+              <!-- Container onde vai ficar as imagens dos projetos -->
+              <div class="container__card--img--two">
+                <img src="src/img/logos/logo@2x.gif" alt="Logo do projeto" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card-2">
+              <div class="container__card--infos">
+                <!-- Bolas animadas nos cards -->
+                <div class="ball__animation--yellow"></div>
+                <div class="ball__animation--blue"></div>
+                <!-- card onde vai ficar o efeito glassmorphismo -->
+                <div class="card__infos">
+                  <h3 class="title__service">Nome do projeto</h3>
+                  <p class="text__service">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Saepe aut explicabo expedita! Commodi unde aliquid animi,
+                    odio
+                  </p>
+                  <a class="btn__projects" href="#">Ver Projeto</a>
+                </div>
+              </div>
+              <!-- Container onde vai ficar as imagens dos projetos -->
+              <div class="container__card--img--one">
+                <img
+                  src="src/img/logos/logoTruechange.png"
+                  alt="Logo do projeto"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card-2">
+              <div class="container__card--infos">
+                <!-- Bolas animadas nos cards -->
+                <div class="ball__animation--yellow"></div>
+                <div class="ball__animation--blue"></div>
+                <!-- card onde vai ficar o efeito glassmorphismo -->
+                <div class="card__infos">
+                  <h3 class="title__service">Nome do projeto</h3>
+                  <p class="text__service">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Saepe aut explicabo expedita! Commodi unde aliquid animi,
+                    odio
+                  </p>
+                  <a class="btn__projects" href="#">Ver Projeto</a>
+                </div>
+              </div>
+              <!-- Container onde vai ficar as imagens dos projetos -->
+              <div class="container__card--img--one">
+                <img
+                  src="src/img/logos/logoTruechange.png"
+                  alt="Logo do projeto"
+                />
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="swiper-button-next reset-color"></div>
+        <div class="swiper-button-prev reset-color"></div>
+        <div class="swiper-pagination reset-color"></div>
       </div>
     </section>
 
-    <section class="cards--service">
-      
-    </section>
+    <section class="services" style="display: none;">
+      <div class="swiper mySwiper swiper--mobile">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card--mobile">
+              <div class="container__card--infos">
+                <!-- Bolas animadas nos cards -->
+                <div class="ball__animation--yellow"></div>
+                <div class="ball__animation--blue"></div>
+                <!-- card onde vai ficar o efeito glassmorphismo -->
+                <div class="card__infos">
+                  <h3 class="title__service">Nome do projeto</h3>
+                  <p class="text__service">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Saepe aut explicabo expedita! Commodi unde aliquid animi,
+                    odio
+                  </p>
+                  <a class="btn__projects" href="#">Ver Projeto</a>
+                </div>
+              </div>
+              <!-- Container onde vai ficar as imagens dos projetos -->
+              <div class="container__card--img--one">
+                <img
+                  src="src/img/logos/logoTruechange.png"
+                  alt="Logo do projeto"
+                />
+              </div>
+            </div>
+          </div>
 
+          <div class="swiper-slide">
+            <div class="card--mobile">
+              <div class="container__card--infos">
+                <!-- Bolas animadas nos cards -->
+                <div class="ball__animation--yellow"></div>
+                <div class="ball__animation--blue"></div>
+                <!-- card onde vai ficar o efeito glassmorphismo -->
+                <div class="card__infos">
+                  <h3 class="title__service">Nome do projeto</h3>
+                  <p class="text__service">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Saepe aut explicabo expedita! Commodi unde aliquid animi,
+                    odio
+                  </p>
+                  <a class="btn__projects" href="#">Ver Projeto</a>
+                </div>
+              </div>
+              <!-- Container onde vai ficar as imagens dos projetos -->
+              <div class="container__card--img--one">
+                <img
+                  src="src/img/logos/logoTruechange.png"
+                  alt="Logo do projeto"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card--mobile">
+              <div class="container__card--infos">
+                <!-- Bolas animadas nos cards -->
+                <div class="ball__animation--yellow"></div>
+                <div class="ball__animation--blue"></div>
+                <!-- card onde vai ficar o efeito glassmorphismo -->
+                <div class="card__infos">
+                  <h3 class="title__service">Nome do projeto</h3>
+                  <p class="text__service">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Saepe aut explicabo expedita! Commodi unde aliquid animi,
+                    odio
+                  </p>
+                  <a class="btn__projects" href="#">Ver Projeto</a>
+                </div>
+              </div>
+              <!-- Container onde vai ficar as imagens dos projetos -->
+              <div class="container__card--img--one">
+                <img
+                  src="src/img/logos/logoTruechange.png"
+                  alt="Logo do projeto"
+                />
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-button-next reset-color"></div>
+        <div class="swiper-button-prev reset-color"></div>
+        <div class="swiper-pagination reset-color"></div>
+      </div>
+    </section>
 
     <footer>
       <div class="footer">
@@ -571,8 +748,9 @@
     </footer>
 
 
-   
- 
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="src/js/slider.js"></script>
 </body>
 
 

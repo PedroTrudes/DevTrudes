@@ -558,6 +558,10 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
 }
 
@@ -777,10 +781,6 @@ table {
           justify-content: space-evenly;
 }
 
-.active {
-  display: block;
-}
-
 @-webkit-keyframes moveBallBlue {
   0% {
     top: -8%;
@@ -890,5 +890,62 @@ table {
 .footer span {
   font-size: 1.5em;
   color: #D6B538;
+}
+
+.cards--service {
+  height: 100vh;
+}
+
+.card--mobile {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.swiper {
+  width: 80%;
+  height: 40%;
+}
+
+.swiper--mobile {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #030917;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.reset-color {
+  color: #FFFFFF !important;
+  font-weight: bold;
+}
+
+.reset-color span {
+  background-color: #D6B538;
 }
 /*# sourceMappingURL=main.css.map */
