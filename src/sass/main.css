@@ -125,6 +125,7 @@ table {
   top: -10px;
   left: -15px;
   transition: 1s ease-in-out;
+  z-index: -2;
 }
 .curriculum::before {
   content: "";
@@ -136,6 +137,7 @@ table {
   bottom: -10px;
   right: -15px;
   transition: 1s ease-in-out;
+  z-index: -2;
 }
 .curriculum:hover::after {
   width: 192px;
@@ -143,6 +145,7 @@ table {
   border-top: 3px solid white;
   border-left: 3px solid white;
   border-radius: 5px;
+  z-index: -2;
 }
 .curriculum:hover::before {
   width: 192px;
@@ -150,6 +153,7 @@ table {
   border-bottom: 3px solid #2EB1EB;
   border-right: 3px solid #2EB1EB;
   border-radius: 5px;
+  z-index: -2;
 }
 
 .card__presentation {
@@ -494,6 +498,53 @@ table {
   justify-content: center;
   flex-direction: column;
   width: 100%;
+}
+
+.highlighter__services {
+  transform: rotate(270deg);
+  color: #fff;
+  position: absolute;
+  left: 1%;
+}
+.highlighter__services span {
+  color: #D6B538 !important;
+  font-size: 1.8em;
+}
+.highlighter__services::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid #2EB1EB;
+  border-left: 3px solid #2EB1EB;
+  position: absolute;
+  top: -10px;
+  left: -15px;
+  transition: 1s ease-in-out;
+}
+.highlighter__services::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  position: absolute;
+  bottom: -10px;
+  right: -15px;
+  transition: 1s ease-in-out;
+}
+.highlighter__services:hover::after {
+  width: 160px;
+  height: 43px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-radius: 5px;
+}
+.highlighter__services:hover::before {
+  width: 160px;
+  height: 43px;
+  border-bottom: 3px solid #2EB1EB;
+  border-right: 3px solid #2EB1EB;
+  border-radius: 5px;
 }
 
 .container__slider {
