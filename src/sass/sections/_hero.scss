@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 90vh;
+    width: 100%;
 }
 
 
@@ -63,7 +64,7 @@
 
 .curriculum{
     position: absolute;
-    right: -3%;
+    right: 2%;
     transform: rotate(270deg);
     
     a{
@@ -159,14 +160,14 @@
 
 
 .card__presentation--card{
-    background-color: #4949493b;
+   // background-color: #4949493b;
+   // border-radius: 150px 150px 15px 15px;
    
     height: 80%;
-    border-radius: 150px 150px 15px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
