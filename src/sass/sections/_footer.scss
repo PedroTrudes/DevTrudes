@@ -4,8 +4,11 @@
     justify-content: center;
     height: 100px;
     border-top: 1px #D6B538 dashed;
+    font-family: $font-primary;
+
     span{
         font-size: 1.5em;
         color: #D6B538;
+        font-weight: 100;
     }
 } 

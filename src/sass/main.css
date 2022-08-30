@@ -49,6 +49,14 @@ table {
   border-spacing: 0;
 }
 
+@font-face {
+  font-family: minhaFont;
+  src: url(../../font/Mova.ttf);
+}
+@font-face {
+  font-family: minhaFont;
+  src: url(../../font/Mova.ttf);
+}
 .hero {
   position: relative;
   display: flex;
@@ -56,6 +64,7 @@ table {
   align-items: center;
   height: 90vh;
   width: 100%;
+  font-family: minhaFont !important;
 }
 
 .highlighter {
@@ -67,6 +76,7 @@ table {
 .highlighter span {
   color: #D6B538 !important;
   font-size: 1.8em;
+  font-weight: bold;
 }
 .highlighter::after {
   content: "";
@@ -114,6 +124,7 @@ table {
   color: #D6B538 !important;
   font-size: 1.8em;
   text-decoration: none;
+  font-weight: bold;
 }
 .curriculum::after {
   content: "";
@@ -185,13 +196,16 @@ table {
 
 .card__presentation--text {
   padding-left: 15px;
+  font-family: minhaFont;
 }
 .card__presentation--text span {
   font-size: 1.4em;
+  font-weight: 100;
 }
 .card__presentation--text h1 {
   margin: 15px 0px;
   font-size: 2em;
+  font-weight: bold;
 }
 
 .card__presentation--card {
@@ -498,6 +512,7 @@ table {
   justify-content: center;
   flex-direction: column;
   width: 100%;
+  font-family: minhaFont;
 }
 
 .highlighter__services {
@@ -509,6 +524,7 @@ table {
 .highlighter__services span {
   color: #D6B538 !important;
   font-size: 1.8em;
+  font-weight: bold;
 }
 .highlighter__services::after {
   content: "";
@@ -661,12 +677,14 @@ table {
   font-weight: bold;
   color: #EDEFF0;
   margin-bottom: 35px;
+  font-weight: bold;
 }
 .card__infos .text__service {
   font-size: 1.1em;
   color: #D6B538;
   max-width: 80%;
   margin-bottom: 25px;
+  font-weight: 100;
 }
 .card__infos .btn__projects {
   text-decoration: none;
@@ -674,7 +692,7 @@ table {
   width: 80%;
   border-radius: 80px;
   font-size: 1.1em;
-  font-weight: bolder;
+  font-weight: 100;
   color: #EDEFF0;
   background-color: rgba(5, 197, 235, 0.2117647059);
 }
@@ -800,10 +818,12 @@ table {
   justify-content: center;
   height: 100px;
   border-top: 1px #D6B538 dashed;
+  font-family: minhaFont;
 }
 .footer span {
   font-size: 1.5em;
   color: #D6B538;
+  font-weight: 100;
 }
 
 .cards--service {
@@ -894,6 +914,7 @@ table {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-family: minhaFont;
 }
 .contact .container__contact {
   width: 100%;
@@ -908,6 +929,7 @@ table {
   font-size: 2em;
   text-align: center;
   line-height: 1.5em;
+  font-weight: 100;
 }
 .contact .container__contact .container__contact--email {
   position: relative;
@@ -920,6 +942,7 @@ table {
   font-size: 1.7em;
   text-decoration: none;
   text-transform: none;
+  font-weight: bold;
 }
 .contact .container__contact .container__contact--email img {
   position: absolute;
@@ -957,4 +980,8 @@ table {
     top: 30%;
     left: 45%;
   }
+}
+@font-face {
+  font-family: minhaFont;
+  src: url(../font/Mova.ttf);
 }/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,5 @@
 @import 'variables/resets';
+@import 'variables/varFonts';
 
 @import 'sections/hero';
 @import 'sections/services';
@@ -6,3 +7,9 @@
 @import 'sections/cardsSlider';
 @import 'sections/wavesAnimated';
 @import 'sections/contact';
+
+
+@font-face {
+    font-family: minhaFont;
+    src: url(../font/Mova.ttf);
+}

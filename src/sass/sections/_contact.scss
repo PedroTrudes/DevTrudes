@@ -5,6 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-family: $font-primary;   
     .container__contact{
         width: 100%;
         height: 70vh;
@@ -19,6 +20,7 @@
             font-size: 2em;
             text-align: center;
             line-height: 1.5em;
+            font-weight: 100;
         }
 
         .container__contact--email{
@@ -31,6 +33,7 @@
                 font-size: 1.7em;
                 text-decoration: none;
                 text-transform: none;
+                font-weight: bold;
 
             }
             img{
