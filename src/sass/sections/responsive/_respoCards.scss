@@ -1,0 +1,39 @@
+@media screen and (max-width: 850px) {
+    .services{
+        display: none;
+    }
+    .services--mobile{
+        margin: 45px 25px;
+        height: auto;
+        padding: 45px;
+        display: block!important;
+        
+        .card--mobile{
+            height: 90vh!important;
+
+            .container__card--infos{
+                margin: 45px;
+                width: 70%;
+
+                .card__infos{
+                    .title__service{
+                        font-size: 1.2em;
+                    }
+                    .text__service{
+                        font-size: 1.0em;
+                    }
+                    .btn__projects{
+                        font-size: 1.0em;
+                    }
+
+                   
+                }
+
+            }
+            .container__card--img--one{
+                width: 70%;
+            }
+        }
+    }
+    
+}

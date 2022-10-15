@@ -8,7 +8,12 @@
 @import 'sections/cardsSlider';
 @import 'sections/wavesAnimated';
 @import 'sections/contact';
+@import 'sections/stacks';
 
+@import 'sections/responsive/responHero';
+@import 'sections/responsive/respoAboutUs';
+@import 'sections/responsive/respoCards';
+@import 'sections/responsive/respoContact';
 
 @font-face {
     font-family: minhaFont;

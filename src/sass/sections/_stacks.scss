@@ -1,0 +1,33 @@
+.stacks{
+    height: 70px;
+    width: 100%;
+    background-color: #2EB1EB;
+    overflow: hidden;
+    .container__stacks{
+        overflow: hidden;
+        position: relative;
+        .stacks{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .stacks--img{
+                animation: ticker 19s infinite ease-in-out;
+                img{
+                    width: 45px;
+                    height: 45px;
+                }
+            }
+        }
+    }
+
+}
+
+
+@keyframes ticker {
+    0%{
+        transform: translateX(5500%);
+    }
+    100%{
+        transform: translateX(-5500%);
+    }
+}

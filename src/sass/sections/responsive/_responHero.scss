@@ -1,0 +1,22 @@
+@media screen and (max-width: 850px) {
+    .card__presentation{
+        flex-direction: column-reverse;
+        height: 60vh;
+        align-items: center;
+        justify-content: space-evenly;
+        .card__presentation--text{
+            text-align: center;
+
+        }
+        .card__presentation--card{
+            height: auto;
+        }
+    }
+    
+    .highlighter{
+        display: none;
+    }
+    .curriculum{
+        display: none;
+    }
+}
