@@ -505,7 +505,12 @@ table {
     transform: translateY(-200%);
   }
 }
+@font-face {
+  font-family: minhaFont;
+  src: url(../../font/Mova.ttf);
+}
 .about {
+  font-family: minhaFont !important;
   color: #fff;
   position: relative;
   height: auto;
@@ -1145,6 +1150,114 @@ table {
   }
   100% {
     transform: translateX(-5500%);
+  }
+}
+@font-face {
+  font-family: minhaFont;
+  src: url(../../font/Mova.ttf);
+}
+.skills {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  margin-top: 15px;
+  height: 80vh;
+  width: 100%;
+  font-family: minhaFont !important;
+}
+.skills .arrow1--top {
+  width: 65px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #2EB1EB;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  rotate: 25deg;
+  -webkit-animation: arrow1--top 5s infinite ease;
+          animation: arrow1--top 5s infinite ease;
+}
+.skills .arrow2--top {
+  width: 45px;
+  height: 1px;
+  background-color: #2EB1EB;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  rotate: 155deg;
+}
+.skills .arrow1--bottom {
+  width: 45px;
+  height: 1px;
+  background-color: #D6B538;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  rotate: 145deg;
+}
+.skills .arrow2--bottom {
+  width: 45px;
+  height: 1px;
+  background-color: #D6B538;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  rotate: 205deg;
+}
+.skills .container__skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid red;
+  width: 75%;
+  height: 450px;
+  color: #fff;
+}
+.skills .container__skills .hard__skills, .skills .container__skills .soft__skills {
+  text-align: center;
+}
+.skills .container__skills .hard__skills h3, .skills .container__skills .soft__skills h3 {
+  margin-bottom: 25px;
+}
+.skills .container__skills .hard__skills .skills--progress, .skills .container__skills .soft__skills .skills--progress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+@-webkit-keyframes arrow1--top {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  50% {
+    top: 95%;
+    left: 95%;
+    opacity: 0;
+    width: 40px;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
+  }
+}
+
+@keyframes arrow1--top {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  50% {
+    top: 95%;
+    left: 95%;
+    opacity: 0;
+    width: 40px;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
   }
 }
 @media screen and (max-width: 850px) {

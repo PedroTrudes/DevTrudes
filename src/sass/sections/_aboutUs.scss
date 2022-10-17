@@ -1,4 +1,6 @@
+@import '../variables/varFonts';
 .about {
+  font-family: $font-primary!important;
   color: #fff;
   position: relative;
   height: auto;
