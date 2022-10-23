@@ -62,7 +62,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 110vh;
+  height: 100vh;
   width: 100%;
   font-family: minhaFont !important;
 }
@@ -169,10 +169,10 @@ table {
 
 .card__presentation {
   display: flex;
-  padding: 25px;
+  padding: 85px 15px;
   color: #fff;
   width: 60%;
-  height: 50vh;
+  height: auto;
   align-items: center;
   justify-content: space-evenly;
   -webkit-backdrop-filter: blur(5px);
@@ -1114,8 +1114,10 @@ table {
 .stacks {
   height: 70px;
   width: 100%;
-  background-color: #2EB1EB;
+  background-color: rgba(101, 190, 235, 0.1137254902);
   overflow: hidden;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(13.5px);
 }
 .stacks .container__stacks {
   overflow: hidden;
@@ -1123,12 +1125,11 @@ table {
 }
 .stacks .container__stacks .stacks {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .stacks .container__stacks .stacks .stacks--img {
-  -webkit-animation: ticker 19s infinite ease-in-out;
-          animation: ticker 19s infinite ease-in-out;
+  margin: 5px 20px;
 }
 .stacks .container__stacks .stacks .stacks--img img {
   width: 45px;
@@ -1161,8 +1162,8 @@ table {
   align-items: center;
   position: relative;
   justify-content: center;
-  margin-top: 15px;
-  height: 80vh;
+  margin-top: 75px;
+  height: auto;
   width: 100%;
   font-family: minhaFont !important;
 }
@@ -1209,10 +1210,12 @@ table {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid red;
+  border-radius: 8px;
   width: 75%;
   height: 450px;
   color: #fff;
+  background-color: rgba(46, 178, 235, 0.1764705882);
+  box-shadow: #D6B538 0px 5px 30px -10px;
 }
 .skills .container__skills .hard__skills, .skills .container__skills .soft__skills {
   text-align: center;

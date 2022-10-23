@@ -1,17 +1,20 @@
 .stacks{
     height: 70px;
     width: 100%;
-    background-color: #2EB1EB;
+    background-color: #65beeb1d;
     overflow: hidden;
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 13.5px );
     .container__stacks{
         overflow: hidden;
         position: relative;
         .stacks{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             .stacks--img{
-                animation: ticker 19s infinite ease-in-out;
+                margin: 5px 20px;
+               // animation: ticker 19s infinite ease-in-out;
                 img{
                     width: 45px;
                     height: 45px;

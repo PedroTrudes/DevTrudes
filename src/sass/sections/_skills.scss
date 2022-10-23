@@ -4,8 +4,8 @@
     align-items: center;
     position: relative;
     justify-content: center;
-    margin-top: 15px;
-    height: 80vh;
+    margin-top: 75px;
+    height: auto;
     width: 100%;
     font-family: $font-primary!important;
 
@@ -53,10 +53,12 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        border: 1px solid red;
+        border-radius: 8px;
         width: 75%;
         height: 450px; 
         color: #fff;
+        background-color: #2eb2eb2d;
+        box-shadow: #D6B538 0px 5px 30px -10px;
 
         .hard__skills , .soft__skills{
             text-align: center;

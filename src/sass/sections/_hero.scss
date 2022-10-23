@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     font-family: $font-primary!important;
 }
@@ -127,16 +127,13 @@
 //cartão central de apresentação
 .card__presentation{
     display: flex;
-    padding: 25px;
+    padding: 85px 15px;
     color: #fff;
     width: 60%;
-    height: 50vh;
+    height: auto;
     align-items: center;
     justify-content: space-evenly;
-
     backdrop-filter: blur(5px);
-    
-
 }
 
 
