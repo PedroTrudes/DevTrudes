@@ -519,23 +519,13 @@ table {
 .about .container__about {
   position: relative;
 }
-.about .container__about .about--img--perfil {
-  position: absolute;
-  left: 45%;
-  top: -15%;
-}
 .about .container__about .container__about--infos {
   width: 75%;
   height: auto;
   margin: auto;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(240, 240, 240, 0.644) 0px 0.125em 0.5em, rgba(240, 240, 240, 0.644) 0px 0px 0px 1px inset;
   padding: 10px 0px;
-}
-.about .container__about .container__about--infos .infos--img {
-  margin: 25px 40px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .about .container__about .container__about--infos .infos--text {
   display: flex;
@@ -557,29 +547,41 @@ table {
   width: 80%;
   height: auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about .container__about .container__about--infos .infos--formation .left {
+  display: flex;
+  flex-direction: row-reverse !important;
 }
 .about .container__about .container__about--infos .infos--formation .formation--card {
+  width: 100%;
+  margin: 8px 0px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   text-align: center;
   justify-content: center;
-  width: 25%;
   height: auto;
   padding: 15px 5px;
-  color: #d6b538;
+  color: #edbf19;
+  box-shadow: #2EB1EB 0px 1px 1px 0px;
 }
-.about .container__about .container__about--infos .infos--formation .formation--card img {
+.about .container__about .container__about--infos .infos--formation .formation--card .card--img {
+  width: 40%;
+}
+.about .container__about .container__about--infos .infos--formation .formation--card .card--img img {
   width: 100px;
   height: 100px;
-  margin-bottom: 35px;
 }
-.about .container__about .container__about--infos .infos--formation .formation--card hr {
-  width: 80%;
-  border: 1px solid #05c4eb;
+.about .container__about .container__about--infos .infos--formation .formation--card .card--infos {
+  width: 60%;
 }
-.about .container__about .container__about--infos .infos--formation .formation--card .span--width {
-  max-width: 40%;
+.about .container__about .container__about--infos .infos--formation .formation--card .card--infos .divider {
+  margin: 8px 0px;
+  height: 1px;
+  background-color: #2EB1EB;
+  width: 100%;
 }
 
 .highlighter__about {
