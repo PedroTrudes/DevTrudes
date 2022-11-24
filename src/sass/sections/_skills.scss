@@ -9,46 +9,6 @@
     width: 100%;
     font-family: $font-primary!important;
 
-    .arrow1--top{
-        width: 65px;
-        height: 5px;
-        border-radius: 5px;
-        background-color: #2EB1EB;
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        rotate: 25deg;
-        animation: arrow1--top 5s infinite ease;
-    }
-    .arrow2--top{
-        width: 45px;
-        height: 1px;
-        background-color: #2EB1EB;
-        position: absolute;
-        top: 0%;
-        right: 0%;
-        rotate: 155deg;
-    }
-
-    .arrow1--bottom{
-        width: 45px;
-        height: 1px;
-        background-color: #D6B538;
-        position: absolute;
-        bottom: 0%;
-        left: 0%;
-        rotate: 145deg;
-    }
-    .arrow2--bottom{
-        width: 45px;
-        height: 1px;
-        background-color: #D6B538;
-        position: absolute;
-        bottom: 0%;
-        right: 0%;
-        rotate: 205deg;
-    }
-
     .container__skills{
         display: flex;
         justify-content: space-around;
@@ -57,8 +17,6 @@
         width: 75%;
         height: 450px; 
         color: #fff;
-        background-color: #2eb2eb2d;
-        box-shadow: #D6B538 0px 5px 30px -10px;
 
         .hard__skills , .soft__skills{
             text-align: center;
@@ -73,21 +31,5 @@
                 margin-bottom: 15px;
             }
         }
-    }
-}
-
-@keyframes arrow1--top {
-    0%{
-        top: 0%;
-        left: 0%;
-    }50%{
-        top: 95%;
-        left: 95%;
-        opacity: 0;
-        width: 40px;
-    }100%{
-        top: 0%;
-        left: 0%;
-        
     }
 }

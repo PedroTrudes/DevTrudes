@@ -1,0 +1,232 @@
+// animações do Hero
+
+.front--pai01{
+    position: absolute;
+    bottom: 0%;
+    left: 8%;
+}
+.front--pai02{
+    position: absolute;
+    bottom: 15%;
+    left: 11%;
+}
+
+.front--pai03{
+    position: absolute;
+    bottom: 10%;
+    left: 14%;
+}
+.front--pai04{
+    position: absolute;
+    bottom: 15%;
+    left: 17%;
+}
+.front--pai05{
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
+.front--pai06{
+    position: absolute;
+    bottom: 52%;
+    left: 23%;
+}
+.front--pai07{
+    position: absolute;
+    bottom: 3%;
+    left: 26%;
+}
+.front--pai08{
+    position: absolute;
+    bottom: 35%;
+    left: 29%;
+}
+.front--pai09{
+    position: absolute;
+    bottom: 53%;
+    left: 32%;
+}
+.front--pai10{
+    position: absolute;
+    bottom: 0%;
+    left: 35%;
+}
+.front--pai11{
+    position: absolute;
+    bottom: 4%;
+    left: 38%;
+}
+.front--pai11{
+    position: absolute;
+    bottom: 54%;
+    left: 42%;
+}
+.front--pai12{
+    position: absolute;
+    top: 5%;
+    left: 44%;
+}
+.front--pai13{
+    position: absolute;
+    top: 84%;
+    left: 46%;
+}
+.front--pai14{
+    position: absolute;
+    top: 54%;
+    left: 48%;
+}
+.front--pai15{
+    position: absolute;
+    top: 24%;
+    left: 50%;
+}
+.front--pai16{
+    position: absolute;
+    top: 93%;
+    left: 53%;
+}
+.front--pai17{
+    position: absolute;
+    top: 63%;
+    left: 56%;
+}
+
+.front--pai18{
+    position: absolute;
+    top: 33%;
+    left: 59%;
+}
+.front--pai19{
+    position: absolute;
+    top: 30%;
+    left: 62%;
+}
+.front--pai20{
+    position: absolute;
+    top: 72%;
+    left: 65%;
+}
+.front--pai21{
+    position: absolute;
+    top: 42%;
+    left: 68%;
+}
+.front--pai22{
+    position: absolute;
+    top: 12%;
+    left: 71%;
+}
+.front--pai23{
+    position: absolute;
+    bottom: 81%;
+    left: 74%;
+}
+.front--pai24{
+    position: absolute;
+    bottom: 51%;
+    left: 77%;
+}
+.front--pai25{
+    position: absolute;
+    bottom: 21%;
+    left: 80%;
+}
+.front--pai26{
+    position: absolute;
+    bottom: 99%;
+    left: 83%;
+}
+.front--pai27{
+    position: absolute;
+    bottom: 66%;
+    left: 86%;
+}
+.front--pai28{
+    position: absolute;
+    bottom: 33%;
+    left: 89%;
+}
+.front--pai29{
+    position: absolute;
+    bottom: 10%;
+    left: 92%;
+}
+.front--pai30{
+    position: absolute;
+    bottom: 12%;
+    left: 42%;
+}
+.front--pai31{
+    position: absolute;
+    bottom: 31%;
+    left: 12%;
+}
+.front--pai32{
+    position: absolute;
+    bottom: 23%;
+    left: 22%;
+}
+.front--pai33{
+    position: absolute;
+    bottom: 33%;
+    left: 42%;
+}
+.front--pai34{
+    position: absolute;
+    bottom: 88%;
+    left: 34%;
+}
+.front--pai35{
+    position: absolute;
+    bottom: 7%;
+    left: 25%;
+}
+.front--pai36{
+    position: absolute;
+    bottom: 6%;
+    left: 29%;
+}
+.front--pai37{
+    position: absolute;
+    bottom: 77%;
+    left: 48%;
+}
+.front--pai38{
+    position: absolute;
+    bottom: 2%;
+    left: 36%;
+}
+.front--pai39{
+    position: absolute;
+    bottom: 17%;
+    left: 65%;
+}
+.front--pai40{
+    position: absolute;
+    bottom: 37%;
+    left: 58%;
+}
+.front--pai41{
+    position: absolute;
+    bottom: 91%;
+    left: 18%;
+}
+
+
+.frontUp{
+   animation: moveFrontUp 2s ease-in-out infinite alternate; 
+}
+
+.frontDown{
+    animation: moveFrontUp 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveFrontUp {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }  
+}
