@@ -1,15 +1,5 @@
-@media screen and (max-width: 850px) {
-    .highlighter__about{
-        display: none;
-    }
-
+@media screen and (max-width: 550px) {
     .container__about{
-        position: relative;
-        .about--img--perfil{
-            position: absolute;
-            width: 100px;
-            top: -6%!important;
-        }
         .container__about--infos{
             .infos--img{
                 img{
@@ -23,13 +13,22 @@
                 }
             }
             .infos--formation{
-                width: 60%!important;
+                width: 100%!important;
                 justify-content: space-between;
                 flex-wrap: wrap;
+                
+                .left{
+                    display: flex!important;
+                    flex-direction: column!important;
+                }
 
-                .formation--card{
-                    width: 35%!important;
+                .formation--card{ 
+                    flex-direction: column!important;
+                    width: 100%!important;
                     text-align: center!important;
+                    .card--img{
+                        margin-bottom: 12px;
+                    }
                     span{
                         font-size: 1.0em!important;
                     }
@@ -37,9 +36,7 @@
                         width: 60px!important;
                         height: 60px!important;
                     }
-                    .span--width{
-                        max-width: 100%!important;
-                    }
+                    
                 }
             }
         }

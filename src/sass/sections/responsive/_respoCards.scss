@@ -3,9 +3,9 @@
         display: none;
     }
     .services--mobile{
-        margin: 45px 25px;
+        margin: 45px 15px;
         height: auto;
-        padding: 45px;
+        padding: 5px;
         display: block!important;
         
         .card--mobile{
@@ -30,8 +30,12 @@
                 }
 
             }
+            .blank{
+                background-color: #fff!important;
+            }
             .container__card--img--one{
                 width: 70%;
+
             }
         }
     }

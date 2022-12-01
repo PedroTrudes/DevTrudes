@@ -1,0 +1,26 @@
+@media screen and (max-width: 850px) {
+    .container__skills{
+        flex-direction: column;
+        width: 80%;
+        height: auto!important;
+
+        .hard__skills{
+            width: 100%;
+            .skills--progress{
+                width: 100%;
+            }
+            #teste{
+                width: 100%;
+            }
+        }
+
+        .soft__skills{
+            margin-top: 25px;
+            width: 100%;
+
+            #teste{
+                width: 100%;
+            }
+        }
+    }
+}
