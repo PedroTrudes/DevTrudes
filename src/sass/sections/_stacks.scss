@@ -12,9 +12,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            //animation: ticker 8s  ease-in-out infinite;
             .stacks--img{
                 margin: 5px 20px;
-               // animation: ticker 19s infinite ease-in-out;
+               //animation: ticker 9s infinite ease-in-out;
                 img{
                     width: 45px;
                     height: 45px;
@@ -23,14 +24,4 @@
         }
     }
 
-}
-
-
-@keyframes ticker {
-    0%{
-        transform: translateX(5500%);
-    }
-    100%{
-        transform: translateX(-5500%);
-    }
 }

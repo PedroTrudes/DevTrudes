@@ -719,23 +719,6 @@ table {
   height: 45px;
 }
 
-@-webkit-keyframes ticker {
-  0% {
-    transform: translateX(5500%);
-  }
-  100% {
-    transform: translateX(-5500%);
-  }
-}
-
-@keyframes ticker {
-  0% {
-    transform: translateX(5500%);
-  }
-  100% {
-    transform: translateX(-5500%);
-  }
-}
 @font-face {
   font-family: minhaFont;
   src: url(../../font/Mova.ttf);
@@ -887,6 +870,34 @@ table {
   }
   .footer span {
     font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 850px) {
+  .stacks--img {
+    -webkit-animation: ticker 12s infinite ease-in-out;
+            animation: ticker 12s infinite ease-in-out;
+  }
+}
+@-webkit-keyframes ticker {
+  0% {
+    transform: translateX(500%);
+  }
+  50% {
+    transform: translateX(-500%);
+  }
+  100% {
+    transform: translateX(500%);
+  }
+}
+@keyframes ticker {
+  0% {
+    transform: translateX(500%);
+  }
+  50% {
+    transform: translateX(-500%);
+  }
+  100% {
+    transform: translateX(500%);
   }
 }
 @media screen and (max-width: 850px) {
