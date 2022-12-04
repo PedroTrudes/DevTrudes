@@ -778,6 +778,7 @@ table {
     height: 80vh;
     align-items: center;
     justify-content: space-evenly;
+    width: 80%;
   }
   .card__presentation .card__presentation--text {
     text-align: center;
