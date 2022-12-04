@@ -21,11 +21,14 @@
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 430px) {
     .card__presentation{
         width: 80%;
+        border: 1px #5B5B5B solid;
+        border-radius: 8px;
     }
     .card__presentation::before{
         display: none;
     }
+   
 }
