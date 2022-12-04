@@ -4,8 +4,6 @@
         height: 80vh;
         align-items: center;
         justify-content: space-evenly;
-        width: 80%;
-        background-color: red;
         .card__presentation--text{
             text-align: center;
 
@@ -19,6 +17,15 @@
         display: none;
     }
     .curriculum{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .card__presentation{
+        width: 80%;
+    }
+    .card__presentation::before{
         display: none;
     }
 }
