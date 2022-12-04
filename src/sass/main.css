@@ -801,6 +801,9 @@ table {
   .card__presentation::before {
     display: none;
   }
+  .card__presentation--banner {
+    display: none;
+  }
 }
 @media screen and (max-width: 550px) {
   .container__about .container__about--infos .infos--img img {
