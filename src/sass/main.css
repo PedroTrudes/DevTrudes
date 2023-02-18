@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@100;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@100;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@100;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@100;400;600&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,14 +53,6 @@ table {
   border-spacing: 0;
 }
 
-@font-face {
-  font-family: minhaFont;
-  src: url(../../font/Mova.ttf);
-}
-@font-face {
-  font-family: minhaFont;
-  src: url(../../font/Mova.ttf);
-}
 .hero {
   position: relative;
   display: flex;
@@ -64,7 +60,7 @@ table {
   align-items: center;
   height: 100vh;
   width: 100%;
-  font-family: minhaFont !important;
+  font-family: "Saira", sans-serif !important;
 }
 
 .card__presentation {
@@ -95,7 +91,7 @@ table {
 
 .card__presentation--text {
   padding-left: 15px;
-  font-family: minhaFont;
+  font-family: "Saira", sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -166,12 +162,8 @@ table {
   height: 75vh;
 }
 
-@font-face {
-  font-family: minhaFont;
-  src: url(../../font/Mova.ttf);
-}
 .about {
-  font-family: minhaFont !important;
+  font-family: "Saira", sans-serif !important;
   color: #fff;
   position: relative;
   height: auto;
@@ -247,18 +239,18 @@ table {
 }
 
 .services {
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  font-family: minhaFont;
+  font-family: "Saira", sans-serif;
 }
 
 .swiper {
-  margin: 5px 0px;
-  padding: 20px 0px !important;
+  margin: 15px 0px;
+  padding: 50px 0px !important;
 }
 
 .container__slider {
@@ -338,8 +330,7 @@ table {
   border-radius: 50px;
   height: 50px;
   width: 50px;
-  -webkit-animation: moveBallYellow 10s ease-in-out infinite;
-          animation: moveBallYellow 10s ease-in-out infinite;
+  animation: moveBallYellow 10s ease-in-out infinite;
   z-index: -105;
   box-shadow: 1px 1px 25px #d1ba68;
 }
@@ -351,8 +342,7 @@ table {
   border-radius: 50px;
   height: 50px;
   width: 50px;
-  -webkit-animation: moveBallBlue 10s ease-in-out infinite;
-          animation: moveBallBlue 10s ease-in-out infinite;
+  animation: moveBallBlue 10s ease-in-out infinite;
   z-index: -105;
   box-shadow: 1px 1px 25px #69dbf1;
 }
@@ -432,29 +422,6 @@ table {
   justify-content: space-evenly;
 }
 
-@-webkit-keyframes moveBallBlue {
-  0% {
-    top: -8%;
-    left: -8%;
-  }
-  25% {
-    top: -8%;
-    left: 100%;
-  }
-  50% {
-    top: 95%;
-    left: 95%;
-  }
-  75% {
-    top: 50%;
-    left: 50%;
-  }
-  100% {
-    top: -8%;
-    left: -8%;
-  }
-}
-
 @keyframes moveBallBlue {
   0% {
     top: -8%;
@@ -475,28 +442,6 @@ table {
   100% {
     top: -8%;
     left: -8%;
-  }
-}
-@-webkit-keyframes moveBallYellow {
-  0% {
-    bottom: -10%;
-    right: -10%;
-  }
-  25% {
-    bottom: -10%;
-    right: 100%;
-  }
-  50% {
-    bottom: 95%;
-    right: 95%;
-  }
-  75% {
-    bottom: 50%;
-    right: 50%;
-  }
-  100% {
-    bottom: -10%;
-    right: -10%;
   }
 }
 @keyframes moveBallYellow {
@@ -527,7 +472,7 @@ table {
   justify-content: center;
   height: 100px;
   border-top: 1px #D6B538 dashed;
-  font-family: minhaFont;
+  font-family: "Saira", sans-serif;
 }
 .footer span {
   font-size: 1.5em;
@@ -599,17 +544,7 @@ table {
 }
 
 .wave.wave1 {
-  -webkit-animation: animate 30s linear infinite;
-          animation: animate 30s linear infinite;
-}
-
-@-webkit-keyframes animate {
-  0% {
-    left: 0px;
-  }
-  100% {
-    left: 1000px;
-  }
+  animation: animate 30s linear infinite;
 }
 
 @keyframes animate {
@@ -622,12 +557,11 @@ table {
 }
 .contact {
   width: 100%;
-  height: 88vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-family: minhaFont;
+  font-family: "Saira", sans-serif;
 }
 .contact .container__contact {
   width: 100%;
@@ -661,23 +595,7 @@ table {
   position: absolute;
   top: 0%;
   left: 0%;
-  -webkit-animation: mouseAnimated 10s infinite ease-in-out;
-          animation: mouseAnimated 10s infinite ease-in-out;
-}
-
-@-webkit-keyframes mouseAnimated {
-  0% {
-    top: 30%;
-    left: 45%;
-  }
-  50% {
-    top: 30%;
-    left: 55%;
-  }
-  100% {
-    top: 30%;
-    left: 45%;
-  }
+  animation: mouseAnimated 10s infinite ease-in-out;
 }
 
 @keyframes mouseAnimated {
@@ -719,10 +637,6 @@ table {
   height: 45px;
 }
 
-@font-face {
-  font-family: minhaFont;
-  src: url(../../font/Mova.ttf);
-}
 .skills {
   display: flex;
   align-items: center;
@@ -731,19 +645,23 @@ table {
   margin-top: 75px;
   height: auto;
   width: 100%;
-  font-family: minhaFont !important;
+  font-family: "Saira", sans-serif !important;
 }
 .skills .container__skills {
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-radius: 8px;
-  width: 75%;
+  width: 100%;
   height: 450px;
   color: #fff;
 }
 .skills .container__skills .hard__skills, .skills .container__skills .soft__skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  width: 100%;
 }
 .skills .container__skills .hard__skills h3, .skills .container__skills .soft__skills h3 {
   margin-bottom: 25px;
@@ -751,8 +669,15 @@ table {
 .skills .container__skills .hard__skills .skills--progress, .skills .container__skills .soft__skills .skills--progress {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 15px;
+  width: 80%;
+}
+.skills .container__skills .hard__skills .skills--progress label, .skills .container__skills .soft__skills .skills--progress label {
+  margin-bottom: 5px;
+}
+.skills .container__skills .hard__skills .skills--progress progress, .skills .container__skills .soft__skills .skills--progress progress {
+  width: 80%;
 }
 
 @media screen and (max-width: 850px) {
@@ -874,19 +799,7 @@ table {
 }
 @media screen and (max-width: 850px) {
   .stacks--img {
-    -webkit-animation: ticker 12s infinite ease-in-out;
-            animation: ticker 12s infinite ease-in-out;
-  }
-}
-@-webkit-keyframes ticker {
-  0% {
-    transform: translateX(500%);
-  }
-  50% {
-    transform: translateX(-500%);
-  }
-  100% {
-    transform: translateX(500%);
+    animation: ticker 12s infinite ease-in-out;
   }
 }
 @keyframes ticker {
@@ -1176,22 +1089,11 @@ table {
 }
 
 .frontUp {
-  -webkit-animation: moveFrontUp 2s ease-in-out infinite alternate;
-          animation: moveFrontUp 2s ease-in-out infinite alternate;
+  animation: moveFrontUp 2s ease-in-out infinite alternate;
 }
 
 .frontDown {
-  -webkit-animation: moveFrontUp 3s ease-in-out infinite alternate;
-          animation: moveFrontUp 3s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes moveFrontUp {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 100;
-  }
+  animation: moveFrontUp 3s ease-in-out infinite alternate;
 }
 
 @keyframes moveFrontUp {
@@ -1202,7 +1104,9 @@ table {
     opacity: 100;
   }
 }
+/*
 @font-face {
-  font-family: minhaFont;
-  src: url(../font/Mova.ttf);
-}/*# sourceMappingURL=main.css.map */
+    font-family: minhaFont;
+    src: url(../font/Mova.ttf);
+}
+*//*# sourceMappingURL=main.css.map */
